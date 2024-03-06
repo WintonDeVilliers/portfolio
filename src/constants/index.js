@@ -5,26 +5,26 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  // typescript,
   html,
   css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // docker,
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+import ablogonew from '../../src/assets/company/ablogonew.png';
+import python from '../../src/assets/tech/python.png';
+import java from '../../src/assets/tech/java.png';
+import MySql from '../../src/assets/tech/Mysql.png';
 
 export const navLinks = [
   {
@@ -43,19 +43,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
+   {
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Help-Desk Soft Skills",
     icon: backend,
   },
+ 
   {
-    title: "Content Creator",
+    title: "Analysis & Documentation",
     icon: creator,
   },
 ];
@@ -69,38 +70,45 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
+    {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Three JS",
+    icon: threejs,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+
   {
     name: "Node JS",
     icon: nodejs,
+  },
+    {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "java",
+    icon: java,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Mysql",
+    icon: MySql,
   },
+
   {
     name: "git",
     icon: git,
@@ -109,65 +117,41 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
+
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Digital Call Script",
+    company_name: "African Bank",
+    icon: ablogonew,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "The Proposed project aims to digitize call-scripts to improve Consultants' on-call compliance,and improve both Consultant and Customer experience during our Customer acquisition stage.As well as optimise distribution and version control of our QA call script tools.",
+      "Web-application, that will have with in it all tools like scripts,check-lists and product catalogs as well as other infographic material.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Use of voice analytics to mitigate against regulatory compliance ommissions",
+      "Voice analytics also assist sales agents with ML generated suggestions for objection handling",
+
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "QA Score Card",
+    company_name: "African Bank",
+    icon: ablogonew,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "This project aims to develop a web application that replaces the existing Excel-based quality assurance score-cards.",
+      "The application will provide a user-friendly form interface resembling the current Excel sheet while maintaining the same score calculations.",
+      "It will leverage data-analysis capabilities to gather insights from captured data", 
+      "Provide data visualisation enabling improved analysis and decision-making.",
+      
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
